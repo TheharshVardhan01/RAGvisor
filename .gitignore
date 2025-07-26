@@ -14,8 +14,8 @@ __pycache__/
 docs/
 *.pdf
 *.txt
+!requirements.txt
 
 # Ignore secrets
 .env
-.env 
 chroma_db/chroma.sqlite3 
