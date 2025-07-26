@@ -1,0 +1,21 @@
+# Ignore ChromaDB & large binaries
+chroma_db/
+*.sqlite3
+*.bin
+*.pkl
+
+# Ignore compiled & cached files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore docs & PDFs
+docs/
+*.pdf
+*.txt
+
+# Ignore secrets
+.env
+.env 
+chroma_db/chroma.sqlite3 
