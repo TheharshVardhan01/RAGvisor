@@ -5,7 +5,7 @@
 
 ---
 
-## 🚀 Features
+##  Features
 
 -  **PDF & Website Ingestion**  
   Upload documents or scrape web pages. RAGvisor breaks them down into semantic chunks using Sentence Transformers.
@@ -40,7 +40,6 @@
 ##  Demo Preview
 
 ![app-preview](Screenshot (93).png)
-(Screenshot (95).png)
 
 ---
 
