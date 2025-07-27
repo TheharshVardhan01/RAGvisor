@@ -1,39 +1,61 @@
-# RAGvisor 
+# 🧠 RAGvisor
 
-**RAGvisor** is a user-friendly, Streamlit-powered application that brings **Retrieval-Augmented Generation (RAG)** to your documents and web content. Ask natural language questions, and get AI-powered answers grounded in the actual text!
+**RAGvisor** is a user-friendly, Streamlit-powered application that brings **Retrieval-Augmented Generation (RAG)** to your documents and web content. Ask natural language questions, and get AI-powered answers grounded in your PDF or scraped website content — complete with source citations and visual generation.
 
----
-
-##  Features
-
--  Upload PDFs and ask questions
--  Crawl website content and use it for context-aware Q&A
--  Semantic search powered by sentence-transformers and ChromaDB
--  LLM-generated answers (e.g. via Mixtral / Mistral)
--  AI image generation based on queries (DeepAI API)
--  Persistent vector storage with ChromaDB
--  Clean Streamlit UI with sidebar controls
+<p align="center">
+  <img src="fulllogo_transparent.png" width="400"/>
+</p>
 
 ---
 
-##  Tech Stack
+## 🚀 Features
 
-- **Python**
-- **Streamlit**
-- **SentenceTransformers**
-- **ChromaDB**
-- **BeautifulSoup**
-- **Requests**
-- **Pillow**
-- **DeepAI API**
-- **LLM integration** (your choice of model)
+- 📄 **PDF & Website Ingestion**  
+  Upload documents or scrape web pages. RAGvisor breaks them down into semantic chunks using Sentence Transformers.
+
+- 🔍 **Semantic Search + Contextual QA**  
+  Ask questions in plain English. Answers are generated via Groq’s Mixtral LLM with matching context retrieved from ChromaDB.
+
+- 🎨 **AI Image Generator**  
+  Visualize concepts with text-to-image prompts powered by DeepAI.
+
+- 🧠 **RAG Architecture**  
+  Combines document embeddings with fast inference using Groq's blazing LLM API.
+
+- 🧩 **Modular Backend**  
+  Built with clean, extensible Python modules for loaders, embedders, and LLM interaction.
 
 ---
 
-## 🛠 Installation
+## 🛠 Tech Stack
 
-Clone the repo:
+| Component       | Technology                       |
+|----------------|----------------------------------|
+| Framework       | Streamlit                        |
+| LLM             | Mixtral-8x7B via Groq API        |
+| Embedding       | SentenceTransformers (`MiniLM`) |
+| Vector Store    | ChromaDB (PersistentClient)      |
+| Image Generator | DeepAI API                       |
+| Scraping        | BeautifulSoup + Requests         |
+
+---
+
+## 📸 Demo Preview
+
+![app-preview](output.png)
+
+---
+
+## 🔧 Installation
 
 ```bash
 git clone https://github.com/TheharshVardhan01/RAGvisor.git
 cd RAGvisor
+pip install -r requirements.txt
+
+Create a .env file in the root directory with:
+GROQ_API_KEY=your_groq_key_here
+DEEPAI_API_KEY=your_deepai_key_here
+
+
+
