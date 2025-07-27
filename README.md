@@ -2,32 +2,29 @@
 
 **RAGvisor** is a user-friendly, Streamlit-powered application that brings **Retrieval-Augmented Generation (RAG)** to your documents and web content. Ask natural language questions, and get AI-powered answers grounded in your PDF or scraped website content — complete with source citations and visual generation.
 
-<p align="center">
-  <img src="fulllogo_transparent.png" width="400"/>
-</p>
 
 ---
 
 ## 🚀 Features
 
-- 📄 **PDF & Website Ingestion**  
+-  **PDF & Website Ingestion**  
   Upload documents or scrape web pages. RAGvisor breaks them down into semantic chunks using Sentence Transformers.
 
-- 🔍 **Semantic Search + Contextual QA**  
+-  **Semantic Search + Contextual QA**  
   Ask questions in plain English. Answers are generated via Groq’s Mixtral LLM with matching context retrieved from ChromaDB.
 
-- 🎨 **AI Image Generator**  
+-  **AI Image Generator**  
   Visualize concepts with text-to-image prompts powered by DeepAI.
 
-- 🧠 **RAG Architecture**  
+-  **RAG Architecture**  
   Combines document embeddings with fast inference using Groq's blazing LLM API.
 
-- 🧩 **Modular Backend**  
+-  **Modular Backend**  
   Built with clean, extensible Python modules for loaders, embedders, and LLM interaction.
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Component       | Technology                       |
 |----------------|----------------------------------|
@@ -40,9 +37,10 @@
 
 ---
 
-## 📸 Demo Preview
+##  Demo Preview
 
-![app-preview](output.png)
+![app-preview](Screenshot (93).png)
+(Screenshot (95).png)
 
 ---
 
