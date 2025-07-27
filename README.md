@@ -40,13 +40,17 @@
 
 ![app-preview](app-preview.png)
 
+##  Demo Preview
+
+![RAGvisor Demo](RAGvisor_demo.gif)
 
 
-### 🔎 Deep Dive Example
+###  Deep Dive Example
 
 Here’s an example of a question-answer interaction with RAGvisor:
 
 ![Detailed QA](preview-2.png)
+
 
 
 ---
