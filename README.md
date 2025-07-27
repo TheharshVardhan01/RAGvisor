@@ -4,26 +4,26 @@
 
 ---
 
-## ✨ Features
+##  Features
 
-- 📄 **PDF & Website Ingestion**  
+-  **PDF & Website Ingestion**  
   Upload documents or scrape websites. RAGvisor breaks them into semantic chunks using Sentence Transformers.
 
-- 🔍 **Semantic Search + QA**  
+-  **Semantic Search + QA**  
   Ask natural language questions. The system retrieves relevant context via ChromaDB and responds using Groq's Mixtral LLM.
 
-- 🎨 **AI Image Generation**  
+-  **AI Image Generation**  
   Use prompts to create visuals powered by DeepAI's text-to-image API.
 
-- ⚙️ **RAG Architecture**  
+-  **RAG Architecture**  
   Combines embeddings + context retrieval + fast generation from Groq’s LLM.
 
-- 🧩 **Modular Backend**  
+-  **Modular Backend**  
   Organized Python modules for easy extension and maintenance.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Component       | Technology                        |
 |----------------|-----------------------------------|
@@ -36,9 +36,18 @@
 
 ---
 
-## 🖼️ Demo Preview
+##  Demo Preview
 
 ![app-preview](app-preview.png)
+
+
+
+### 🔎 Deep Dive Example
+
+Here’s an example of a question-answer interaction with RAGvisor:
+
+![Detailed QA](preview-2.png)
+
 
 ---
 
