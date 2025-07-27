@@ -38,9 +38,7 @@
 
 ## 🖼️ Demo Preview
 
-![app-preview](assets/app-preview.png)
-
-
+![app-preview](app-preview.png)
 
 ---
 
