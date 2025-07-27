@@ -38,7 +38,7 @@
 
 ## 🖼️ Demo Preview
 
-![app-preview](Screenshot (93).png) <!-- Ensure this image path is correct -->
+![app-preview](RAGvisor/Screenshot (93).png)
 
 ---
 
