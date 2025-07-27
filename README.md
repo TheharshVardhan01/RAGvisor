@@ -38,7 +38,9 @@
 
 ## 🖼️ Demo Preview
 
-![app-preview](RAGvisor/Screenshot (93).png)
+![app-preview](assets/app-preview.png)
+
+
 
 ---
 
